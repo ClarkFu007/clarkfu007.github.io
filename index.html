@@ -58,9 +58,8 @@
 							Case Western Reserve University (CWRU) 
 							working with my advisor <a href="https://engineering.case.edu/panli"> 
 							Prof. Li</a> and co-advisor <a href="https://yin-yu.github.io/"> 
-							Prof. Yin</a>. 
-							Currently I focus on knowledge distillation, 
-							self-training, in-context learning, chain-of-thought prompting in language models 
+							Prof. Yin</a>. Currently I focus on knowledge distillation, pruning and quantization,
+							self-training, slef-correction, in-context learning, chain-of-thought prompting in language models 
 							(BERT-style and Llama-1/2/3); and security and privacy in federated learning. 
 							Recently, I have been actively writing papers for prestigious machine learning conferences 
 							such as NeurIPS, ICLR, ICML, ACL, EMNLP, and NAACL.						<br />
@@ -144,12 +143,14 @@
 						- Explored knowledge distillation, self-distillation, self-training, chain-of-thought prompting, parameter-efficient 
 						fine-tuning for encoder-only language models (BERT, RoBERTa, AlBERT, and DeBERTa) on GLUE/SuperGLUE
 						and decoder-only ones (GPT-3, Llama-1/2/3) on Mathematical/Commonsense Reasoning. <br />
-						- Realized one-shot federated learning via data/knowledge distillation techniques to reduce communication costs. <br />
 						- Developed activation-aware weight-only quantization to compress OPT-1.3B, which is measured by perplexity on
 						wikitext-2 and final model sizes, in order to reduce memory footprint and achieve reference acceleration. <br />
 						- Deployed a quantized LLaMA2-7B to run a chatbot on 14-inch MacBook Pro and observed the end-to-end latency
 						improvement achieved by different optimization techniques (loop unrolling, multithreading, and SIMD
 						programming) for the linear kernel. <br />
+						- Realized one-shot federated learning via data/knowledge distillation techniques to reduce communication costs. <br />
+						- Used PyTorch to implement both unconditional and conditional Denoising Diffusion Probabilistic Models (DDPM) based on CIFAR-10, 
+						where the conditional one includes Classifier-Free-Guidance (CFG) and Exponential-Moving-Average (EMA).  <br />
 
 						<strong>• Master Research Assistant (Keck School of Medicine at USC)</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
